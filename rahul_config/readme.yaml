@@ -1,0 +1,9 @@
+# first down hive-site .xml from hive
+  then copy this file into spark
+
+  $ docker cp hive-site.xml spark-master:/spark/conf
+
+# download postgres jar
+https://mvnrepository.com/artifact/org.postgresql/postgresql/42.2.19
+
+# and copy this jar into spar/jar folder
